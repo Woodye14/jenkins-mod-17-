@@ -1,15 +1,18 @@
 pipeline{
   agent any
   stages{
-    stage("make direcotry"){
+    stage("build stage"){
       steps{
-        sh "mkdir ~/jenkins-tutorial-test"
+        sh "ls"
       }
     }
-    stage("make files"){
+    stage("test"){
       steps{
-        sh "touch ~/jenkins-tutoiral-test/file1"
+        sh "cd"
       }
     }
+   stage("deploy"){
+      steps{
+        sh "echo"
   }
 }
