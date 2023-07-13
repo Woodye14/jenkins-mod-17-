@@ -11,8 +11,8 @@ pipeline{
         sh "cd"
       }
     }
-   stage("deploy"){
-      steps{
-        sh "echo"
+     stage("deploy"){
+       steps{
+         sh "echo"
   }
 }
